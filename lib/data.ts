@@ -3,9 +3,9 @@ import {
   Code2,
   Server,
   Palette,
-  Github,
-  Linkedin,
-  Instagram,
+  Globe,
+  Link2,
+  AtSign,
   MessageCircle,
   Mail,
 } from 'lucide-react'
@@ -247,9 +247,9 @@ export const certificates: Certificate[] = [
 export type Social = { label: string; href: string; icon: LucideIcon }
 
 export const socials: Social[] = [
-  { label: 'GitHub', href: 'https://github.com', icon: Github },
-  { label: 'LinkedIn', href: 'https://linkedin.com', icon: Linkedin },
-  { label: 'Instagram', href: 'https://instagram.com', icon: Instagram },
+  { label: 'GitHub', href: 'https://github.com', icon: Globe },
+  { label: 'LinkedIn', href: 'https://linkedin.com', icon: Link2 },
+  { label: 'Instagram', href: 'https://instagram.com', icon: AtSign },
   { label: 'WhatsApp', href: 'https://wa.me/910000000000', icon: MessageCircle },
   { label: 'Email', href: 'mailto:hello@ayushv.tech', icon: Mail },
 ]

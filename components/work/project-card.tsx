@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { ArrowUpRight, Github } from 'lucide-react'
+import { ArrowUpRight, GitBranch } from 'lucide-react'
 import { motion } from 'motion/react'
 import type { Project } from '@/lib/data'
 import { EASE } from '@/components/shared/reveal'
@@ -37,7 +37,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
               aria-label={`${project.name} source code`}
               className="inline-flex size-9 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-accent/40 hover:text-foreground"
             >
-              <Github className="size-4" aria-hidden />
+              <GitBranch className="size-4" aria-hidden />
             </a>
             <a
               href={project.live}

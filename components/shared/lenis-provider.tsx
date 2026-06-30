@@ -11,7 +11,7 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
     // Skip smooth-scroll hijacking entirely when the user prefers reduced motion.
     if (reduce) return
 
-    const lenis = new Lenis({ lerp: 0.1, smoothWheel: true })
+    const lenis = new Lenis({ lerp: 0.15, smoothWheel: true })
 
     let rafId = 0
     function raf(time: number) {
